@@ -1,12 +1,30 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie search application using the TMDB API. Users can view popular movies and search for any movie by title. Shows a 404 image if no movie is found.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Search movies in real-time using TMDB API
+- Display popular movies by default
+- Responsive Bootstrap layout
+- 404 image when no results are found
+- Clean card layout with poster, title, overview, and release date
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React
+- Vite
+- Axios
+- TMDB API
+- Bootstrap 5
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
+![App Screenshot](public/screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo
+[Click here to view live](#)  ← (We can deploy to Vercel/Netlify next!)
+
+## 🧑‍💻 How to Run Locally
+```bash
+git clone https://github.com/nazrinayesha/movie-search-app.git
+cd movie-search-app
+npm install
+npm run dev
