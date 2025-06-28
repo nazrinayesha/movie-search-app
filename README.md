@@ -19,8 +19,7 @@ A React-based movie search application using the TMDB API. Users can view popula
 ## 📸 Screenshot
 ![App Screenshot](public/screenshot.png)
 
-## 🌐 Live Demo
-[Click here to view live](#)  ← (We can deploy to Vercel/Netlify next!)
+
 
 ## 🧑‍💻 How to Run Locally
 ```bash
